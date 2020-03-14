@@ -1,13 +1,12 @@
 package data
 
-data class Student (
+data class Student(
     val firstname: String,
-    val surname: String,
-    var presence: Boolean
+    val surname: String
 )
 val studentList =
     arrayListOf(
-        Student("Ryan", "Cooper",true),
-        Student("Corey", "Taylor",true),
-        Student("Maxim", "Gvozdeev",true)
+        Student ("Ryan" , "Cooper"),
+        Student ( "Corey", "Taylor"),
+        Student("Maxim","Gvozdeev")
     )
