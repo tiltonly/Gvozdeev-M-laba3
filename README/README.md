@@ -10,4 +10,4 @@
 
 3. Так выглядит программа после запуска
 
-<img src = 13.png>
+https://sun9-46.userapi.com/c854524/v854524264/1ffd4d/5f_BxAo1Xkk.jpg
