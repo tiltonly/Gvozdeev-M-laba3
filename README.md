@@ -17,5 +17,5 @@
  - Нажимаем на Lessons и видим новый предмет
  <img src = https://sun9-34.userapi.com/c857528/v857528698/1d6ea8/AkraAfgWiVY.jpg >
  
- -Нажимаем на новый предмет и отмечаем студента на нем
+ - Нажимаем на новый предмет и отмечаем студента на нем
   <img src = https://sun9-57.userapi.com/c857528/v857528698/1d6eaf/JcEKZeoLhnk.jpg >
