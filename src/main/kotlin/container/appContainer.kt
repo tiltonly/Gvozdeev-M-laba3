@@ -9,7 +9,8 @@ import hoc.withDisplayName
 val appContainer =
     rConnect<State, RProps, AppProps>(
         { state, _ ->
-
+            Rules = state.Rules
+            Formula = state.Formula
         },
         {
             pure = false  // side effect of React Route

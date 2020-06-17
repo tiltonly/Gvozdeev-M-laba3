@@ -2,241 +2,28 @@
 	margin:0;
 }
 body {
-	background-color: black;
-	color: red;
+	background-color: white;
+	color: black;
 	font-family: Calibri;
 	font-size: 1.5em;
 }
 html{
 	height: 100%;
 }
-a{
-  text-decoration: none;
-}
-a:active{
-  text-decoration: none;
-  color: unset;
-}
-a:visited{
-  text-decoration: none;
-}
-.nabBar ul {
-  list-style: none; /*убираем маркеры списка*/
-  margin: 0; /*убираем отступы*/
-  padding-left: 0; /*убираем отступы*/
-  margin-top:25px; /*делаем отступ сверху*/
-  background:#819A32; /*добавляем фон всему меню*/
-  height: 50px; /*задаем высоту*/
-}
-.nabBar a {
-  text-decoration: none; /*убираем подчеркивание текста ссылок*/
-  background:#819A32; /*добавляем фон к пункту меню*/
-  color:#fff; /*меняем цвет ссылок*/
-  padding:0px 15px; /*добавляем отступ*/
-  font-family: arial; /*меняем шрифт*/
-  line-height:50px; /*ровняем меню по вертикали*/
-  display: block;
-  border-right: 1px solid #677B27; /*добавляем бордюр справа*/
-  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
-  -o-transition: all 0.3s 0.01s ease;
-  -webkit-transition: all 0.3s 0.01s ease;
 
-}
-.nabBar a:hover {
-  background:#D43737;/*добавляем эффект при наведении*/
-}
-.nabBar li {
-  float:left; /*Размещаем список горизонтально для реализации меню*/
-  position:relative; /*задаем позицию для позиционирования*/
+table, td, th {
+  border: 1px solid black;
 }
 
-    /*Стили для скрытого выпадающего меню*/
-    .nabBar li > ul {
-        position:absolute;
-        top:25px;
-        display:none;
-    }
-
-    /*Делаем скрытую часть видимой*/
-    .nabBar li:hover > ul {
-        display:block;
-        width:250px;  /*Задаем ширину выпадающего меню*/
-    }
-    .nabBar li:hover > ul > li {
-        float:none; /*Убираем горизонтальное позиционирование*/
-    }
-
-.container{
-  border:1px solid #819A32;
-  border-top: none;
-  border-radius: 0 0 10px 10px;
-  width: 80%;
-  margin: 0 auto;
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-/* buttons */
-.boton1{
-  background:#eee;
-  color:#819A32;
-  text-decoration:none;
-  display:block;
-   width:60%;
-  text-align:center;
-  margin:20px auto;
-  padding:10px 10px;
-  transition:all 0.3s;
-  }
- .boton1:hover{
-  box-shadow:0px -5px 0 #D43737 inset;
-  color: #D43737;
-}
-.head{
-  text-align: center;
-  border-bottom: 1px solid black;
-  width: 65%;
-  margin:0 auto;
+th {
+  text-align: left;
 }
 
-/* list */
-.zebra {
-  list-style: none;
-  border-left: 10px solid #819A32;
-  padding: 0;
-  width: 85%;
-  margin:15px 0;
-  border-bottom: 1px solid #819A32;
-  border-top: 1px solid #819A32;
-}
-.zebra.questionListVars{
-  width:99%;
-}
-.zebra li {padding: 10px;}
-.zebra li:nth-child(odd) {background: rgb(255, 226, 225);}
-.zebra li:nth-child(even) {background: white;}
-.variant{
-  border-bottom:1px solid #819A32;
-}
-.questionTitle{
-  width: 97%;
-  margin: 0 auto;
-}
-.questionTitle{
-  font-weight: 600;
-  text-align: center;
-}
-.highlight{
-  text-decoration: underline;
-  color:#D43737;
-}
-.answer{
-  margin-left: 10px;
-}
-
-input[type="text"]
-{
-
-}
-input[type="text"]:focus
-{
-
-}
-button, input[type="text"]{
-  margin-left:auto ;
-}
-
-.editQuestionPage button, input[type="text"], select,input[type = "number"]{
-  box-sizing: border-box;
-  height: 30px;
-
-}
-.editQuestionPage button{
-  background:#eee;
-  color:#819A32;
-  /* text-decoration:none; */
-  /* display:block; */
-   /* width:60%;  */
-  text-align:center;
-  /* margin:20px auto; */
-  /* padding:10px 10px; */
-  transition:all 0.3s;
-  }
-  .editQuestionPage button:hover{
-  box-shadow:0px -5px 0 #D43737 inset;
-  color: #D43737;
-}
-.editQuestionPage button:hover{
-
-}
-
-.variants {
-  list-style: none;
-  border-left: 10px solid #819A32;
-  padding: 0;
-  /* font-family: "Lucida Sans"; */
-  /* width: 85%; */
-  margin:15px 0;
-  border-bottom: 1px solid #819A32;
-  border-top: 1px solid #819A32;
-}
-.variants.questionListVars{
-  width:99%;
-}
-.variants{
-  width: 97.5%;
-}
-.variants li {padding: 10px;}
-.variants li:nth-child(odd) {background: rgb(255, 226, 225);}
-.variants li:nth-child(even) {background: white;}
-
-
-    .inputGroup{
-      display: inline-flex;
-      width: 100%;
-      justify-content: space-between;
-    }
-    .inputGroup span{
-      flex-grow: 1;
-    }
-    .inputGroup div{
-      width: 300px;
-    }
-
-    .toFlex{
-      display: inline-flex;
-      width: 100%;
-      justify-content: space-between;
-      border-top: 1px solid #819A32;
-      margin-left: 10px;
-      box-sizing: border-box;
-    }
-    .toFlex .toLeft{
-      flex-grow: 1;
-    }
-    .toFlex .toright{
-      width: 300px;
-    }
- .qPointInputHolder{
-  margin-left: 10px;
-}
-
-.navigationButton{
-  display: inline-flex;
-      width: 100%;
-      justify-content: space-between;
-      /* border-top: 1px solid #819A32; */
-      margin-left: 10px;
-      box-sizing: border-box;
-      margin-bottom: 8px;
-}
-.nextButtonLorem{
-  width: 10px;
-  height: 10px;
-}
-.prewButton{
-  flex-grow: 1;
-}
-.nextButton button , .prewButton button{
-  width: 160px;
-  height: 90px;
-  font-size: 2em;
+.window {
+    display: none;
 }

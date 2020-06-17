@@ -9,6 +9,9 @@ class State(
         val Formula: FormulaState
 )
 
+fun <T> Map<Int, T>.newId() =
+        (this.maxBy { it.key }?.key ?: 0) + 1
+
 fun initialState() =
     State(
         listOfRules.mapIndexed { index, rules ->
