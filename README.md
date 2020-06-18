@@ -1,11 +1,2 @@
-# labsOOP
-  - [lab1](https://github.com/tiltonly/labsOOP/tree/lab1)
-  - [lab2](https://github.com/tiltonly/labsOOP/tree/lab2)
-  - [lab3](https://github.com/tiltonly/labsOOP/tree/master)
-  - [lab4](https://github.com/tiltonly/labsOOP/tree/lab4)
-  - [lab5](https://github.com/tiltonly/labsOOP/tree/lab5)
-  - [lab6](https://github.com/tiltonly/labsOOP/tree/lab6)
-  - [lab7](https://github.com/tiltonly/labsOOP/tree/lab7)
-  - [lab8](https://github.com/tiltonly/labsOOP/tree/lab8)
-  - [lab9](https://github.com/tiltonly/labsOOP/tree/lab9)
-  - [lab10](https://github.com/tiltonly/labsOOP/tree/lab10)
+# Course Work
+https://htmlpreview.github.io/?https://github.com/tiltonly/labsOOP/blob/Course-work/distributions/index.html#/
